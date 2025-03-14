@@ -29,7 +29,7 @@ function Navbar({ user }) {
             <div className="navbar-container">
                 {/* Logo */}
                 <Link to="/dashboard" className="navbar-logo">
-                    <img src="{{ asset('logo3-mb.png') }}" alt="Logo Ministerio Altar Del Santisimo" className="navbar-logo" />
+                    <img src="/logo3-mb.png" alt="Logo Ministerio Altar Del Santisimo" className="navbar-logo" />
                 </Link>
 
                 {/* Botón de menú móvil */}
