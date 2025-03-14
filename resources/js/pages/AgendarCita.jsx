@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import DatePicker from 'react-datepicker';
 import { es } from "date-fns/locale";
-import Navbar from '../components/navbar';
+import Navbar from '../components/navbar.jsx';
 import 'react-datepicker/dist/react-datepicker.css'; // Estilos del calendario
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios'; // Importa Axios
